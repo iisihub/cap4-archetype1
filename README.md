@@ -3,8 +3,8 @@
 * git clone https://github.com/iisihub/cap4-archetype1.git type1
 * cd type1
 * mvn clean archetype:create-from-project
-* cd target/generated-sources/archetype/target
-* mvn install:install-file -DpomFile=../pom.xml -Dfile=xxxx-archetype-4.0.1-archetype1.jar
+* cd target/generated-sources/archetype
+* mvn install
 * mvn archetype:update-local-catalog
 
 ## Generate Project from Archetype
