@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="pu-xxxx">
+        <mapping-file>META-INF/orm-xxxx.xml</mapping-file>
+        <!-- base -->
+        <class>com.iisigroup.cap.base.model.CodeType</class>
+        <class>com.iisigroup.cap.base.model.SysParm</class>
+        <class>com.iisigroup.cap.base.model.ErrorCode</class>
+        <class>com.iisigroup.cap.base.model.AuditLog</class>
+        <class>com.iisigroup.cap.base.model.I18n</class>
+        <class>com.iisigroup.cap.base.model.Remind</class>
+        <class>com.iisigroup.cap.base.model.Reminds</class>
+        <!-- cap-auth-admin start -->
+        <class>com.iisigroup.xxxx.auth.model.DefaultUser</class>
+        <class>com.iisigroup.xxxx.auth.model.Department</class>
+        <class>com.iisigroup.xxxx.auth.model.DefaultRole</class>
+        <class>com.iisigroup.xxxx.auth.model.RoleFunction</class>
+        <class>com.iisigroup.xxxx.auth.model.UserRole</class>
+        <class>com.iisigroup.xxxx.auth.model.DefaultFunction</class>
+        <class>com.iisigroup.xxxx.auth.model.PwdLog</class>
+        <!-- cap-auth-admin end -->
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    </persistence-unit>
+</persistence>
