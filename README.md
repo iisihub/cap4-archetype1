@@ -33,11 +33,11 @@ Choose archetype:
 1: local -> com.iisi.ss:ssms-archetype (ssms-archetype)
 2: local -> com.iisigroup.cap:cap-archetype (cap-archetype)
 3: local -> com.iisigroup.cap:xxxx-archetype (xxxx-archetype)
-4: local -> com.iisigroup.xxxx:xxxx-archetype (xxxx-archetype)
-Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : 4
-Define value for property 'groupId': com.somecompany.somesystem
-Define value for property 'artifactId': someproject
-Define value for property 'version' 1.0-SNAPSHOT: : 1.0.0
+<span style="color:red">4: local -> com.iisigroup.xxxx:xxxx-archetype (xxxx-archetype)</span>
+Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : <span style="color:red">4</span><span style="color:blue"> (according to the NO. above)</span>
+Define value for property 'groupId': <span style="color:red">com.somecompany.somesystem</span><span style="color:blue"> (depends on project's requirement)</span>
+Define value for property 'artifactId': <span style="color:red">someproject</span><span style="color:blue"> (depends on project's requirement)</span>
+Define value for property 'version' 1.0-SNAPSHOT: : <span style="color:red">1.0.0</span><span style="color:blue"> (depends on project's requirement)</span>
 Define value for property 'package' com.somecompany.somesystem: :
 Confirm properties configuration:
 groupId: com.somecompany.somesystem
