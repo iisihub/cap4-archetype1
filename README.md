@@ -7,6 +7,11 @@
 * mvn install
 * mvn archetype:update-local-catalog
 
+##### Alternative Way
+* download pom.xml & xxxx-archetype-{version}.jar from https://github.com/iisihub/cap4-archetype1/tree/master/dist
+* mvn install:install-file -DpomFile=./pom.xml -Dfile=./xxxx-archetype-{version}.jar
+* mvn archetype:update-local-catalog
+
 ## Generate Project from Archetype
 * mvn archetype:generate -DarchetypeCatalog=local
 * Choose the number of local -> com.iisigroup.xxxx:xxxx-archetype (xxxx-archetype)

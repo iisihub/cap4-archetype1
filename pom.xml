@@ -198,6 +198,7 @@
 					<version>2.4</version>
 					<configuration>
 						<archetypeFilteredExtentions>js,json,md,java,xml,txt,groovy,jsp,vm,html,properties</archetypeFilteredExtentions>
+						<propertyFile>./archetype.properties</propertyFile>
 					</configuration>
 				</plugin>
                 <plugin>
