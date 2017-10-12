@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>xxxx</artifactId>
 		<groupId>com.iisigroup.xxxx</groupId>
-		<version>4.0.1-archetype1</version>
+		<version>4.0.1-archetype1-jdk7-jpa2.1</version>
 	</parent>
 	<artifactId>xxxx-web</artifactId>
 	<packaging>war</packaging>
@@ -118,7 +118,7 @@
 				<configuration>
 					<webResources>
 						<resource>
-							<directory>${basedir}/../cap-config/src/main/resources</directory>
+							<directory>${basedir}/../xxxx-config/src/main/resources</directory>
 							<targetPath>WEB-INF/classes</targetPath>
 						</resource>
 					</webResources>
